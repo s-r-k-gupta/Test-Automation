@@ -2,21 +2,21 @@
 <testng-results ignored="0" total="11" passed="9" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-23T15:13:09 IST" name="Loan Department" finished-at="2024-07-23T15:13:09 IST" duration-ms="233">
+  <suite started-at="2024-07-23T23:14:06 IST" name="Loan Department" finished-at="2024-07-23T23:14:06 IST" duration-ms="172">
     <groups>
       <group name="Smoke">
         <method signature="day1.personalLoan()[pri:0, instance:Test.day1@4f32a3ad]" name="personalLoan" class="Test.day1"/>
         <method signature="day2.carLoanwebLogin()[pri:0, instance:Test.day2@7a5ceedd]" name="carLoanwebLogin" class="Test.day2"/>
-        <method signature="day3.homeLoanMobLogin()[pri:0, instance:Test.day3@387a8303]" name="homeLoanMobLogin" class="Test.day3"/>
+        <method signature="day3.homeLoanMobLogin()[pri:0, instance:Test.day3@69504ae9]" name="homeLoanMobLogin" class="Test.day3"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-07-23T15:13:09 IST" name="Personal Loan" finished-at="2024-07-23T15:13:09 IST" duration-ms="114">
+    <test started-at="2024-07-23T23:14:06 IST" name="Personal Loan" finished-at="2024-07-23T23:14:06 IST" duration-ms="58">
       <class name="Test.day1">
-        <test-method signature="personalLoan()[pri:0, instance:Test.day1@4f32a3ad]" started-at="2024-07-23T15:13:09 IST" name="personalLoan" finished-at="2024-07-23T15:13:09 IST" duration-ms="6" status="PASS">
+        <test-method signature="personalLoan()[pri:0, instance:Test.day1@4f32a3ad]" started-at="2024-07-23T23:14:06 IST" name="personalLoan" finished-at="2024-07-23T23:14:06 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalLoan -->
-        <test-method signature="personalLoanMobLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day1@4f32a3ad]" started-at="2024-07-23T15:13:09 IST" name="personalLoanMobLogin" data-provider="getdata" finished-at="2024-07-23T15:13:09 IST" duration-ms="1" status="PASS">
+        <test-method signature="personalLoanMobLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day1@4f32a3ad]" started-at="2024-07-23T23:14:06 IST" name="personalLoanMobLogin" data-provider="getdata" finished-at="2024-07-23T23:14:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalLoanMobLogin -->
-        <test-method signature="personalLoanMobLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day1@4f32a3ad]" started-at="2024-07-23T15:13:09 IST" name="personalLoanMobLogin" data-provider="getdata" finished-at="2024-07-23T15:13:09 IST" duration-ms="2" status="PASS">
+        <test-method signature="personalLoanMobLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day1@4f32a3ad]" started-at="2024-07-23T23:14:06 IST" name="personalLoanMobLogin" data-provider="getdata" finished-at="2024-07-23T23:14:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalLoanMobLogin -->
-        <test-method signature="personalLoanMobLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day1@4f32a3ad]" started-at="2024-07-23T15:13:09 IST" name="personalLoanMobLogin" data-provider="getdata" finished-at="2024-07-23T15:13:09 IST" duration-ms="3" status="PASS">
+        <test-method signature="personalLoanMobLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day1@4f32a3ad]" started-at="2024-07-23T23:14:06 IST" name="personalLoanMobLogin" data-provider="getdata" finished-at="2024-07-23T23:14:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,21 +64,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalLoanMobLogin -->
-        <test-method is-config="true" signature="AfterLoan()[pri:0, instance:Test.day1@4f32a3ad]" started-at="2024-07-23T15:13:09 IST" name="AfterLoan" finished-at="2024-07-23T15:13:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterLoan()[pri:0, instance:Test.day1@4f32a3ad]" started-at="2024-07-23T23:14:06 IST" name="AfterLoan" finished-at="2024-07-23T23:14:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterLoan -->
       </class> <!-- Test.day1 -->
       <class name="Test.day2">
-        <test-method is-config="true" signature="carLoanModule()[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T15:13:09 IST" name="carLoanModule" finished-at="2024-07-23T15:13:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="carLoanModule()[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T23:14:06 IST" name="carLoanModule" finished-at="2024-07-23T23:14:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanModule -->
-        <test-method signature="carLoan()[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T15:13:09 IST" name="carLoan" finished-at="2024-07-23T15:13:09 IST" duration-ms="3" status="PASS">
+        <test-method signature="carLoan()[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T23:14:06 IST" name="carLoan" finished-at="2024-07-23T23:14:06 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoan -->
-        <test-method signature="carLoanMobLogin(java.lang.String)[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T15:13:09 IST" name="carLoanMobLogin" finished-at="2024-07-23T15:13:09 IST" duration-ms="2" status="PASS">
+        <test-method signature="carLoanMobLogin(java.lang.String)[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T23:14:06 IST" name="carLoanMobLogin" finished-at="2024-07-23T23:14:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,15 +89,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanMobLogin -->
-        <test-method signature="carLoanwebLogin()[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T15:13:09 IST" name="carLoanwebLogin" finished-at="2024-07-23T15:13:09 IST" duration-ms="2" status="PASS">
+        <test-method signature="carLoanwebLogin()[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T23:14:06 IST" name="carLoanwebLogin" finished-at="2024-07-23T23:14:06 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanwebLogin -->
       </class> <!-- Test.day2 -->
     </test> <!-- Personal Loan -->
-    <test started-at="2024-07-23T15:13:09 IST" name="Home Loan" finished-at="2024-07-23T15:13:09 IST" duration-ms="31">
+    <test started-at="2024-07-23T23:14:06 IST" name="Home Loan" finished-at="2024-07-23T23:14:06 IST" duration-ms="31">
       <class name="Test.day3">
-        <test-method signature="homeLoanMobLogin()[pri:0, instance:Test.day3@387a8303]" started-at="2024-07-23T15:13:09 IST" name="homeLoanMobLogin" finished-at="2024-07-23T15:13:09 IST" duration-ms="13" status="FAIL">
+        <test-method signature="homeLoanMobLogin()[pri:0, instance:Test.day3@69504ae9]" started-at="2024-07-23T23:14:06 IST" name="homeLoanMobLogin" finished-at="2024-07-23T23:14:06 IST" duration-ms="10" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -143,7 +143,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeLoanMobLogin -->
-        <test-method signature="homeLoanwebLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day3@387a8303]" started-at="2024-07-23T15:13:09 IST" name="homeLoanwebLogin" finished-at="2024-07-23T15:13:09 IST" duration-ms="2" status="PASS">
+        <test-method signature="homeLoanwebLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day3@69504ae9]" started-at="2024-07-23T23:14:06 IST" name="homeLoanwebLogin" finished-at="2024-07-23T23:14:06 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,21 +159,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeLoanwebLogin -->
-        <test-method signature="homeloansection()[pri:0, instance:Test.day3@387a8303]" started-at="2024-07-23T15:13:09 IST" name="homeloansection" finished-at="2024-07-23T15:13:09 IST" duration-ms="4" status="PASS">
+        <test-method signature="homeloansection()[pri:0, instance:Test.day3@69504ae9]" started-at="2024-07-23T23:14:06 IST" name="homeloansection" finished-at="2024-07-23T23:14:06 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeloansection -->
-        <test-method signature="homeLoan()[pri:0, instance:Test.day3@387a8303]" started-at="2024-07-23T15:13:09 IST" name="homeLoan" finished-at="2024-07-23T15:13:09 IST" depends-on-methods="Test.day3.homeLoanwebLogin, Test.day3.homeLoanMobLogin" duration-ms="0" status="SKIP">
+        <test-method signature="homeLoan()[pri:0, instance:Test.day3@69504ae9]" started-at="2024-07-23T23:14:06 IST" name="homeLoan" finished-at="2024-07-23T23:14:06 IST" depends-on-methods="Test.day3.homeLoanwebLogin, Test.day3.homeLoanMobLogin" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method Test.day3.homeLoan() on instance Test.day3@387a8303 depends on not successfully finished methods 
-[Test.day3.homeLoanwebLogin() on instance Test.day3@387a8303
-Test.day3.homeLoanMobLogin() on instance Test.day3@387a8303]]]>
+              <![CDATA[Method Test.day3.homeLoan() on instance Test.day3@69504ae9 depends on not successfully finished methods 
+[Test.day3.homeLoanwebLogin() on instance Test.day3@69504ae9
+Test.day3.homeLoanMobLogin() on instance Test.day3@69504ae9]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Test.day3.homeLoan() on instance Test.day3@387a8303 depends on not successfully finished methods 
-[Test.day3.homeLoanwebLogin() on instance Test.day3@387a8303
-Test.day3.homeLoanMobLogin() on instance Test.day3@387a8303]
+              <![CDATA[java.lang.Throwable: Method Test.day3.homeLoan() on instance Test.day3@69504ae9 depends on not successfully finished methods 
+[Test.day3.homeLoanwebLogin() on instance Test.day3@69504ae9
+Test.day3.homeLoanMobLogin() on instance Test.day3@69504ae9]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -201,11 +201,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- homeLoan -->
       </class> <!-- Test.day3 -->
       <class name="Test.day2">
-        <test-method is-config="true" signature="firstmost()[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T15:13:09 IST" name="firstmost" finished-at="2024-07-23T15:13:09 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="firstmost()[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T23:14:06 IST" name="firstmost" finished-at="2024-07-23T23:14:06 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstmost -->
-        <test-method is-config="true" signature="lastmost()[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T15:13:09 IST" name="lastmost" finished-at="2024-07-23T15:13:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="lastmost()[pri:0, instance:Test.day2@7a5ceedd]" started-at="2024-07-23T23:14:06 IST" name="lastmost" finished-at="2024-07-23T23:14:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastmost -->
