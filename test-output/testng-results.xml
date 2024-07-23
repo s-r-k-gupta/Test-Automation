@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="8" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-23T11:36:54 IST" name="Suite" finished-at="2024-07-23T11:36:54 IST" duration-ms="92">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.personalLoan()[pri:0, instance:Test.day1@7bd7d6d6]" name="personalLoan" class="Test.day1"/>
+        <method signature="day2.carLoanwebLogin()[pri:0, instance:Test.day2@740fb309]" name="carLoanwebLogin" class="Test.day2"/>
+        <method signature="day3.homeLoanMobLogin()[pri:0, instance:Test.day3@4d1c005e]" name="homeLoanMobLogin" class="Test.day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-07-23T11:36:54 IST" name="Test" finished-at="2024-07-23T11:36:54 IST" duration-ms="92">
+      <class name="Test.day1">
+        <test-method signature="personalLoan()[pri:0, instance:Test.day1@7bd7d6d6]" started-at="2024-07-23T11:36:54 IST" name="personalLoan" finished-at="2024-07-23T11:36:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoan -->
+        <test-method signature="personalLoanMobLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day1@7bd7d6d6]" started-at="2024-07-23T11:36:54 IST" name="personalLoanMobLogin" data-provider="getdata" finished-at="2024-07-23T11:36:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanMobLogin -->
+        <test-method signature="personalLoanMobLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day1@7bd7d6d6]" started-at="2024-07-23T11:36:54 IST" name="personalLoanMobLogin" data-provider="getdata" finished-at="2024-07-23T11:36:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanMobLogin -->
+        <test-method signature="personalLoanMobLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day1@7bd7d6d6]" started-at="2024-07-23T11:36:54 IST" name="personalLoanMobLogin" data-provider="getdata" finished-at="2024-07-23T11:36:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanMobLogin -->
+        <test-method is-config="true" signature="AfterLoan()[pri:0, instance:Test.day1@7bd7d6d6]" started-at="2024-07-23T11:36:54 IST" name="AfterLoan" finished-at="2024-07-23T11:36:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterLoan -->
+      </class> <!-- Test.day1 -->
+      <class name="Test.day3">
+        <test-method signature="homeLoanMobLogin()[pri:0, instance:Test.day3@4d1c005e]" started-at="2024-07-23T11:36:54 IST" name="homeLoanMobLogin" finished-at="2024-07-23T11:36:54 IST" duration-ms="12" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Test.day3.homeLoanMobLogin(day3.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanMobLogin -->
+        <test-method signature="homeLoanwebLogin(java.lang.String,java.lang.String)[pri:0, instance:Test.day3@4d1c005e]" started-at="2024-07-23T11:36:54 IST" name="homeLoanwebLogin" finished-at="2024-07-23T11:36:54 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'APIKey' is required by @Test on method homeLoanwebLogin but has not been marked @Optional or defined
+in C:\Users\saurabh.k\eclipse-workspace\TestNGTutorial\testng3.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'APIKey' is required by @Test on method homeLoanwebLogin but has not been marked @Optional or defined
+in C:\Users\saurabh.k\eclipse-workspace\TestNGTutorial\testng3.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:946)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanwebLogin -->
+        <test-method signature="homeloansection()[pri:0, instance:Test.day3@4d1c005e]" started-at="2024-07-23T11:36:54 IST" name="homeloansection" finished-at="2024-07-23T11:36:54 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeloansection -->
+        <test-method signature="homeLoan()[pri:0, instance:Test.day3@4d1c005e]" started-at="2024-07-23T11:36:54 IST" name="homeLoan" finished-at="2024-07-23T11:36:54 IST" depends-on-methods="Test.day3.homeLoanwebLogin, Test.day3.homeLoanMobLogin" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Test.day3.homeLoan() on instance Test.day3@4d1c005e depends on not successfully finished methods 
+[Test.day3.homeLoanwebLogin() on instance Test.day3@4d1c005e
+Test.day3.homeLoanMobLogin() on instance Test.day3@4d1c005e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Test.day3.homeLoan() on instance Test.day3@4d1c005e depends on not successfully finished methods 
+[Test.day3.homeLoanwebLogin() on instance Test.day3@4d1c005e
+Test.day3.homeLoanMobLogin() on instance Test.day3@4d1c005e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoan -->
+      </class> <!-- Test.day3 -->
+      <class name="Test.day2">
+        <test-method is-config="true" signature="firstmost()[pri:0, instance:Test.day2@740fb309]" started-at="2024-07-23T11:36:54 IST" name="firstmost" finished-at="2024-07-23T11:36:54 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstmost -->
+        <test-method is-config="true" signature="carLoanModule()[pri:0, instance:Test.day2@740fb309]" started-at="2024-07-23T11:36:54 IST" name="carLoanModule" finished-at="2024-07-23T11:36:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanModule -->
+        <test-method signature="carLoan()[pri:0, instance:Test.day2@740fb309]" started-at="2024-07-23T11:36:54 IST" name="carLoan" finished-at="2024-07-23T11:36:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoan -->
+        <test-method signature="carLoanMobLogin(java.lang.String)[pri:0, instance:Test.day2@740fb309]" started-at="2024-07-23T11:36:54 IST" name="carLoanMobLogin" finished-at="2024-07-23T11:36:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobileclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanMobLogin -->
+        <test-method signature="carLoanwebLogin()[pri:0, instance:Test.day2@740fb309]" started-at="2024-07-23T11:36:54 IST" name="carLoanwebLogin" finished-at="2024-07-23T11:36:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanwebLogin -->
+        <test-method is-config="true" signature="lastmost()[pri:0, instance:Test.day2@740fb309]" started-at="2024-07-23T11:36:54 IST" name="lastmost" finished-at="2024-07-23T11:36:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastmost -->
+      </class> <!-- Test.day2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
